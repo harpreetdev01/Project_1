@@ -7,7 +7,21 @@
     <title>Vite App</title>
   </head>
   <body>
+    <label for="red">Red</label>
+    <input type="range" id="red" name="red" min="0" max="255" value="0">
+    <span id="red-value">0</span><br>
+  
+    <label for="green">Green</label>
+    <input type="range" id="green" name="green" min="0" max="255" value="0">
+    <span id="green-value">0</span><br>
+  
+    <label for="blue">Blue</label>
+    <input type="range" id="blue" name="blue" min="0" max="255" value="0">
+    <span id="blue-value">0</span><br>
+  
+
     <canvas id="webgl"></canvas>
-    <script type="module" src="/main.js"></script>
+
+    <script type="module" src="/scripts/main.js"></script>
   </body>
 </html>

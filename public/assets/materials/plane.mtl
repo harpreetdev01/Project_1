@@ -1,0 +1,19 @@
+# Plane Material
+
+# Define new material
+newmtl PlaneMaterial
+
+#Ambient color (color under ambient light)
+ka 1.0 0.0 0.0 # Red
+
+# Diffuse color (main color of material)
+kd 1.0 0.0 0.0 # Red
+
+# Specular color (color of specular highlights)
+ks 1.0 1.0 1.0 # White (for highlights)
+
+# Shininess (specular exponent)
+Ns 100.0 # High shininess for a shiny surface
+
+# Optional: Opacity (1.0 = opaque)
+d 1.0

@@ -1,0 +1,21 @@
+# Simple plane.obj w/ material
+
+mtllib plane.mtl # Reference to plane.mtl
+
+# Vertices
+v -1.0 0.0 -1.0 # Bottom-left corner
+v 1.0 0.0 -1.0  # Bottom-right corner 
+v 1.0 0.0 1.0   # Top-right corner
+v -1.0 0.0 1.0  # Top-left corner
+
+# Define the use of the material
+usemtl PlaneMaterial # Use the defined PlaneMaterial
+
+vn 0.0 1.0 0.0  # Vertex normals (optional, for lighting/shading)
+vn 0.0 1.0 0.0
+vn 0.0 1.0 0.0
+vn 0.0 1.0 0.0
+
+# Faces (triangles)
+f 1//1 2//2 3//3
+f 1//1 3//3 4//4
